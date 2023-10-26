@@ -34,3 +34,63 @@ Configure the import alias for utils: › @/lib/utils
 Are you using React Server Components? › yes
 
 ```
+
+3. Install dependencies
+```
+npm i framer-motion jotai react-hook-form react-query zod
+```
+
+## nextjs projects structure
+
+```
+.
+├── src/
+│   ├── app/
+│   │   ├── (api)/
+│   │   │   └── api/
+│   │   │       └── example/
+│   │   │           └── route.ts
+│   │   ├── (dashboard)/
+│   │   │   ├── example/
+│   │   │   │   └── page.tsx
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx
+│   │   ├── (site)/
+│   │   │   ├── example/
+│   │   │   │   └── page.tsx
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   └── template.tsx
+│   │   ├── (studio)/
+│   │   │   ├── admin/
+│   │   │   │   └── [[...index]]/
+│   │   │   │       └── page.tsx
+│   │   │   └── layout.tsx
+│   │   ├── layout.tsx
+│   │   └── globals.css
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── button.tsx
+│   │   │   ├── form.tsx
+│   │   │   ├── input.tsx
+│   │   │   └── label.tsx
+│   │   └── example-form.tsx
+│   ├── hooks/
+│   │   └── use-example.ts
+│   ├── lib/
+│   │   └── utils.ts
+│   ├── types/
+│   │   └── index.d.ts
+│   └── sanity/
+│       ├── config/
+│       │   ├── client-config.ts
+│       │   ├── desk-structure.ts
+│       │   └── sanity.confit.ts
+│       └── schemas/
+│           ├── example/
+│           │   ├── example.ts
+│           │   └── index.ts
+│           └── index.ts
+└── public
+```
+
