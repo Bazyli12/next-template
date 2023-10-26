@@ -99,7 +99,7 @@ npm i framer-motion jotai react-hook-form react-query zod
 
 #### Already made components (recommended):
 - [ui.shadcn.com](https://ui.shadcn.com/docs/components)
-- [radix-ui.com](https://www.radix-ui.com/themes/docs/components) | [GitHub](https://github.com/radix-ui/themes/tree/main/packages/radix-ui-themes/src/components)
+- [radix-ui.com]([https://www.radix-ui.com/themes/docs/components](https://www.radix-ui.com/themes/docs/overview/getting-started)) | [GitHub](https://github.com/radix-ui/themes/tree/main/packages/radix-ui-themes/src/components)
 
 #### Own components:
 - [how to create own components using radix-ui](https://www.freecodecamp.org/news/unstyled-ui-components-for-front-end-developers#sample-code-from-radix-)
