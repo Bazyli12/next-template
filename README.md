@@ -34,7 +34,6 @@ Where is your tailwind.config.js located? › tailwind.config.ts
 Configure the import alias for components: › @/components
 Configure the import alias for utils: › @/lib/utils
 Are you using React Server Components? › yes
-
 ```
 
 3. Install dependencies
