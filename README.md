@@ -1,3 +1,4 @@
+
 # next-template
 
 A Next.js 13 template for building projects with:
@@ -10,7 +11,7 @@ A Next.js 13 template for building projects with:
 - React-query
 - Zod
 
-## Usage
+## Initialize project
 
 1.  Initialize project
 ```
@@ -40,7 +41,7 @@ Are you using React Server Components? › yes
 npm i framer-motion jotai react-hook-form react-query zod
 ```
 
-## nextjs projects structure
+## Project structure
 
 ```
 .
@@ -94,3 +95,11 @@ npm i framer-motion jotai react-hook-form react-query zod
 └── public
 ```
 
+## Where find ui components and how to use them?
+
+#### Already made components (recommended):
+- [ui.shadcn.com](https://ui.shadcn.com/docs/components)
+- [radix-ui.com](https://www.radix-ui.com/themes/docs/components) | [GitHub](https://github.com/radix-ui/themes/tree/main/packages/radix-ui-themes/src/components)
+
+#### Own components:
+- [how to create own components using radix-ui](https://www.freecodecamp.org/news/unstyled-ui-components-for-front-end-developers#sample-code-from-radix-)
